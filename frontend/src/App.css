@@ -1,0 +1,296 @@
+/* Sistema de Sinalização Digital - Sicoob Credisete */
+
+:root {
+  --sicoob-green: #006633;
+  --sicoob-green-dark: #004d22;
+  --sicoob-green-light: #1a7a40;
+  --sicoob-gray: #f8f9fa;
+  --sicoob-gray-dark: #6c757d;
+  --sicoob-white: #ffffff;
+  --sicoob-success: #28a745;
+  --sicoob-warning: #ffc107;
+  --sicoob-danger: #dc3545;
+  --sicoob-info: #17a2b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--sicoob-gray);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--sicoob-gray);
+  min-height: calc(100vh - 56px);
+}
+
+/* Custom Bootstrap overrides */
+.btn-primary {
+  background-color: var(--sicoob-green);
+  border-color: var(--sicoob-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--sicoob-green-dark);
+  border-color: var(--sicoob-green-dark);
+}
+
+.btn-success {
+  background-color: var(--sicoob-success);
+  border-color: var(--sicoob-success);
+}
+
+.btn-outline-primary {
+  color: var(--sicoob-green);
+  border-color: var(--sicoob-green);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--sicoob-green);
+  border-color: var(--sicoob-green);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: var(--sicoob-white);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px 10px 0 0 !important;
+  font-weight: 600;
+  color: var(--sicoob-green);
+}
+
+.navbar {
+  background-color: var(--sicoob-green) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--sicoob-white) !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:hover {
+  background-color: var(--sicoob-gray);
+  color: var(--sicoob-green);
+}
+
+/* Form styles */
+.form-control:focus {
+  border-color: var(--sicoob-green);
+  box-shadow: 0 0 0 0.2rem rgba(0, 102, 51, 0.25);
+}
+
+.form-label {
+  font-weight: 500;
+  color: var(--sicoob-green-dark);
+  margin-bottom: 8px;
+}
+
+/* Table styles */
+.table {
+  background-color: var(--sicoob-white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+  background-color: var(--sicoob-green);
+  color: var(--sicoob-white);
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 102, 51, 0.05);
+}
+
+/* Loading spinner */
+.spinner-border {
+  color: var(--sicoob-green);
+}
+
+/* Alert styles */
+.alert-success {
+  background-color: rgba(40, 167, 69, 0.1);
+  border-color: var(--sicoob-success);
+  color: var(--sicoob-success);
+}
+
+.alert-danger {
+  background-color: rgba(220, 53, 69, 0.1);
+  border-color: var(--sicoob-danger);
+  color: var(--sicoob-danger);
+}
+
+.alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  border-color: var(--sicoob-warning);
+  color: var(--sicoob-warning);
+}
+
+.alert-info {
+  background-color: rgba(23, 162, 184, 0.1);
+  border-color: var(--sicoob-info);
+  color: var(--sicoob-info);
+}
+
+/* Modal styles */
+.modal-header {
+  background-color: var(--sicoob-green);
+  color: var(--sicoob-white);
+  border: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-header .btn-close {
+  filter: invert(1);
+}
+
+.modal-footer {
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card .card-body {
+  padding: 2rem;
+}
+
+.dashboard-card-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Status indicators */
+.status-online {
+  color: var(--sicoob-success);
+}
+
+.status-offline {
+  color: var(--sicoob-danger);
+}
+
+.status-warning {
+  color: var(--sicoob-warning);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .dashboard-card .card-body {
+    padding: 1.5rem;
+  }
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sicoob-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sicoob-green);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sicoob-green-dark);
+}

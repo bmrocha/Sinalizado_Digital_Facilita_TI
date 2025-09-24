@@ -1,0 +1,33 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==1.4.54
+aiosqlite==0.19.0
+alembic==1.12.1
+# psycopg2-binary==2.9.9  # Temporarily commented out due to MSVC++ requirement
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# File handling
+aiofiles==23.2.1
+# Pillow==10.0.1  # Temporarily commented out due to Python 3.13 compatibility issues
+
+# Validation
+pydantic==1.10.13
+email-validator==2.1.0
+
+# CORS (handled by FastAPI)
+
+# Logging
+structlog==23.2.0
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
