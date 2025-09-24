@@ -9,6 +9,35 @@ set -e
 echo "=== Instalação do Sistema de Sinalização Digital ==="
 echo "Versão Otimizada para Raspberry Pi OS Lite"
 echo ""
+echo "📚 ANTES DE COMEÇAR:"
+echo "   Recomendamos ler o guia de instalação completo."
+echo "   Deseja ver o guia agora? (s/n)"
+echo ""
+
+read -r resposta
+if [[ "$resposta" =~ ^[Ss]$ ]]; then
+    # Tentar mostrar o guia
+    if [ -f "mostrar_guia.sh" ]; then
+        ./mostrar_guia.sh
+    else
+        echo "Baixando guia..."
+        curl -s -o mostrar_guia.sh https://raw.githubusercontent.com/bmrocha/Sinalizado_Digital/main/raspberry_pi/mostrar_guia.sh
+        chmod +x mostrar_guia.sh
+        ./mostrar_guia.sh
+    fi
+
+    echo ""
+    echo "✅ Pronto para continuar com a instalação? (s/n)"
+    read -r continuar
+    if [[ ! "$continuar" =~ ^[Ss]$ ]]; then
+        echo "Instalação cancelada. Execute o script novamente quando estiver pronto."
+        exit 0
+    fi
+fi
+
+echo ""
+echo "🚀 Iniciando instalação..."
+echo ""
 
 # Verificar se está rodando como root
 if [ "$EUID" -eq 0 ]; then
@@ -40,7 +69,7 @@ cd ~/sinalizacao_digital
 
 # Baixar script do player otimizado
 echo "⬇️  Baixando script do player..."
-curl -o player.py https://raw.githubusercontent.com/facilitati/sinalizacao_digital/main/raspberry_pi/player_lite.py
+curl -o player.py https://raw.githubusercontent.com/bmrocha/Sinalizado_Digital/main/raspberry_pi/player_lite.py
 
 # Tornar executável
 chmod +x player.py
