@@ -315,3 +315,5 @@ INFO 2025-09-25 08:31:34,390 basehttp 14248 6132 "GET /admin/users/user/ HTTP/1.
 INFO 2025-09-25 08:31:34,465 basehttp 14248 6132 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
 WARNING 2025-09-25 08:31:44,346 log 14248 24312 Unauthorized: /api/auth/login/
 WARNING 2025-09-25 08:31:44,347 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+INFO 2025-09-25 09:21:40,051 autoreload 26376 25188 Watching for file changes with StatReloader
+INFO 2025-09-25 09:22:34,417 autoreload 31728 14608 Watching for file changes with StatReloader

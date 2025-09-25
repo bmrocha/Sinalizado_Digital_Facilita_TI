@@ -18,7 +18,11 @@ class UserListCreateView(generics.ListCreateAPIView):
     Only admin users can access this view.
     """
     queryset = User.objects.all()
-    permission_classes = [permissions.IsAuthenticated]
+
+    def get_permissions(self):
+        if self.request.method == 'POST':
+            return [permissions.AllowAny()]
+        return [permissions.IsAuthenticated()]
 
     def get_serializer_class(self):
         if self.request.method == 'POST':
@@ -28,7 +32,7 @@ class UserListCreateView(generics.ListCreateAPIView):
     def get_queryset(self):
         queryset = User.objects.all()
         # Filter by agency if user is not admin
-        if not self.request.user.role == 'admin':
+        if hasattr(self.request, 'user') and self.request.user.is_authenticated and not self.request.user.role == 'admin':
             queryset = queryset.filter(agency=self.request.user.agency)
         return queryset
 
