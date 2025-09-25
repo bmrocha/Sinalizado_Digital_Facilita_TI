@@ -5,12 +5,12 @@ Este tutorial fornece instruções passo a passo para configurar, instalar e usa
 ## 📋 Pré-requisitos
 
 ### Para o Backend (API)
-- Python 3.8 ou superior
+- Python 3.11+ (Django)
 - PostgreSQL (produção) ou SQLite (desenvolvimento)
 - Git
 
 ### Para o Frontend (Painel Web)
-- Node.js 16 ou superior
+- Node.js 18+ (React)
 - npm ou yarn
 
 ### Para o Raspberry Pi

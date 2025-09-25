@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Configure axios defaults
-  axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
+  axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
 
   useEffect(() => {
     // Check if user is logged in on app start
@@ -24,7 +24,7 @@ export const AuthProvider = ({ children }) => {
     if (token) {
       axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
       // Verify token with backend
-      axios.get('/auth/me')
+      axios.get('/auth/me/')
         .then(response => {
           setUser(response.data);
         })
@@ -42,7 +42,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
     try {
-      const response = await axios.post('/auth/login', {
+      const response = await axios.post('/auth/login/', {
         username,
         password
       });
@@ -52,7 +52,7 @@ export const AuthProvider = ({ children }) => {
       axios.defaults.headers.common['Authorization'] = `Bearer ${access_token}`;
 
       // Get user info
-      const userResponse = await axios.get('/auth/me');
+      const userResponse = await axios.get('/auth/me/');
       setUser(userResponse.data);
 
       return { success: true };
@@ -72,7 +72,7 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (userData) => {
     try {
-      const response = await axios.post('/auth/register', userData);
+      const response = await axios.post('/auth/register/', userData);
       return { success: true, data: response.data };
     } catch (error) {
       return {

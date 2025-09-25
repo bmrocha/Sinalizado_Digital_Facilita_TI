@@ -69,7 +69,7 @@ cd ~/sinalizacao_digital
 
 # Baixar script do player otimizado
 echo "⬇️  Baixando script do player..."
-curl -o player.py https://raw.githubusercontent.com/bmrocha/Sinalizado_Digital/main/raspberry_pi/player_lite.py
+curl -o player.py https://raw.githubusercontent.com/bmrocha/Sinalizado_Digital_Facilita_TI/main/raspberry_pi/player_lite.py
 
 # Tornar executável
 chmod +x player.py

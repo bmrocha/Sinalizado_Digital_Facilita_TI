@@ -1,4 +1,4 @@
-# Sistema de Sinalização Digital - Facilita TI
+ usu# Sistema de Sinalização Digital - Facilita TI
 
 Um sistema completo de sinalização digital desenvolvido por Bruno Martins Rocha da Facilita TI, utilizando Raspberry Pi 4 como dispositivo de exibição e um painel web moderno para gerenciamento remoto.
 
@@ -26,11 +26,11 @@ Este projeto oferece uma solução própria de sinalização digital com control
 - **Context API** - Gerenciamento de estado global
 
 ### Backend (API e lógica de negócio)
-- **FastAPI** - Framework Python para API REST
-- **SQLAlchemy** - ORM para banco de dados
-- **Uvicorn** - Servidor ASGI
-- **Python-JOSE** - JWT para autenticação
-- **Passlib** - Hash de senhas
+- **Django** - Framework Python web
+- **Django REST Framework** - API REST
+- **PostgreSQL** - Banco de dados relacional
+- **JWT Authentication** - Autenticação segura
+- **Bcrypt** - Hash de senhas
 
 ### Banco de Dados
 - **PostgreSQL** (produção)
@@ -47,14 +47,16 @@ Este projeto oferece uma solução própria de sinalização digital com control
 
 ```
 sinalizado_digital/
-├── backend/                 # API FastAPI
-│   ├── app/
-│   │   ├── api/v1/         # Rotas da API
-│   │   ├── core/           # Configurações e segurança
-│   │   ├── models/         # Modelos de dados
-│   │   └── schemas/        # Schemas Pydantic
+├── backend/                 # API Django REST Framework
+│   ├── sinalizacao_digital/ # Configurações Django
+│   ├── apps/               # Aplicações Django
+│   │   ├── users/          # Gerenciamento de usuários
+│   │   ├── agencies/       # Gerenciamento de agências
+│   │   ├── contents/       # Gerenciamento de conteúdos
+│   │   ├── schedules/      # Sistema de agendamentos
+│   │   └── devices/        # Controle de dispositivos
 │   ├── requirements.txt    # Dependências Python
-│   └── .env               # Variáveis de ambiente
+│   └── manage.py          # Comando Django
 ├── frontend/               # Aplicação React
 │   ├── public/            # Arquivos estáticos
 │   ├── src/
@@ -107,12 +109,17 @@ sinalizado_digital/
 
 5. **Execute as migrações do banco:**
    ```bash
-   python -m uvicorn app.main:app --reload
+   python manage.py migrate
    ```
 
-6. **Acesse a documentação da API:**
-   - **Swagger UI:** http://localhost:8000/docs
-   - **ReDoc:** http://localhost:8000/redoc
+6. **Execute o servidor de desenvolvimento:**
+   ```bash
+   python manage.py runserver 0.0.0.0:8000
+   ```
+
+7. **Acesse a documentação da API:**
+   - **Django REST Framework browsable API:** http://localhost:8000/api/
+   - **Admin Django:** http://localhost:8000/admin/
 
 ### Frontend Setup
 
@@ -129,7 +136,7 @@ sinalizado_digital/
 3. **Configure a API base URL:**
    Edite o arquivo `src/context/AuthContext.js` e ajuste:
    ```javascript
-   axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
+   axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
    ```
 
 4. **Execute o servidor de desenvolvimento:**
@@ -198,7 +205,7 @@ sinalizado_digital/
 - **Autenticação JWT** com expiração de tokens
 - **Hash de senhas** com bcrypt
 - **CORS configurado** para origens específicas
-- **Validação de dados** com Pydantic
+- **Validação de dados** com Django Forms e Serializers
 - **Logs de auditoria** para todas as operações
 
 ## 🎨 Identidade Visual
@@ -243,16 +250,16 @@ sinalizado_digital/
 ## 📚 Documentação da API
 
 A documentação completa da API está disponível em:
-- **Swagger UI:** http://localhost:8000/docs
-- **ReDoc:** http://localhost:8000/redoc
+- **Django REST Framework browsable API:** http://localhost:8000/api/
+- **Admin Django:** http://localhost:8000/admin/
 
 ### Endpoints Principais
 
-- `POST /api/v1/auth/login` - Autenticação
-- `GET /api/v1/agencies` - Listar agências
-- `POST /api/v1/contents` - Criar conteúdo
-- `GET /api/v1/schedules/current` - Agendamento atual
-- `POST /api/v1/devices/status` - Atualizar status do dispositivo
+- `POST /api/auth/login/` - Autenticação JWT
+- `GET /api/agencies/` - Listar agências
+- `POST /api/contents/` - Criar conteúdo
+- `GET /api/schedules/current/` - Agendamento atual
+- `POST /api/devices/status/` - Atualizar status do dispositivo
 
 ## 🧪 Testes
 
@@ -273,13 +280,18 @@ npm test
 ### Backend (Produção)
 ```bash
 cd backend
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4
+# Usando Gunicorn (recomendado para Django)
+gunicorn sinalizacao_digital.wsgi:application --bind 0.0.0.0:8000 --workers 4
+
+# Ou usando o servidor de desenvolvimento (não recomendado para produção)
+python manage.py runserver 0.0.0.0:8000
 ```
 
 ### Frontend (Produção)
 ```bash
 cd frontend
 npm run build
+# Servir com Nginx ou Apache, ou usar serve para desenvolvimento
 serve -s build -l 3000
 ```
 

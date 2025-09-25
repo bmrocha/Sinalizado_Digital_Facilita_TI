@@ -1,0 +1,317 @@
+INFO 2025-09-24 18:00:39,663 autoreload 19484 1340 Watching for file changes with StatReloader
+WARNING 2025-09-24 18:00:52,282 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:00:52,283 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:00:52,570 log 19484 17492 Not Found: /favicon.ico
+WARNING 2025-09-24 18:00:52,571 basehttp 19484 17492 "GET /favicon.ico HTTP/1.1" 404 2751
+WARNING 2025-09-24 18:01:00,667 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:00,669 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:01,151 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:01,152 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:01,357 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:01,358 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:01,522 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:01,526 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:01,749 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:01,771 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:01,939 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:01,940 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:02,212 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:02,216 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:02,505 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:02,510 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:07,734 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:07,735 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:07,896 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:07,897 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:08,037 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:08,038 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:08,204 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:08,206 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:08,345 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:08,347 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:08,503 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:08,505 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:08,660 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:08,661 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:08,818 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:08,819 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:09,020 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:09,025 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:09,225 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:09,226 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:09,462 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:09,469 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:09,602 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:09,605 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:09,766 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:09,772 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:14,432 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:14,434 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:15,060 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:15,061 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:15,259 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:15,260 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:15,415 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:15,416 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:15,600 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:15,602 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:15,758 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:15,759 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:15,913 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:15,915 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:16,072 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:16,087 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:16,236 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:16,237 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:16,464 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:16,468 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:16,751 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:16,760 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+WARNING 2025-09-24 18:01:17,062 log 19484 17492 Not Found: /
+WARNING 2025-09-24 18:01:17,095 basehttp 19484 17492 "GET / HTTP/1.1" 404 2700
+INFO 2025-09-24 18:01:43,989 autoreload 19484 1340 C:\Users\brunom3175_00\Downloads\Sinalizado_Digital\backend\apps\api\urls.py changed, reloading.
+INFO 2025-09-24 18:01:47,134 autoreload 16216 10076 Watching for file changes with StatReloader
+INFO 2025-09-25 07:30:56,265 autoreload 31280 16008 Watching for file changes with StatReloader
+WARNING 2025-09-25 07:31:09,461 log 31280 27772 Not Found: /favicon.ico
+WARNING 2025-09-25 07:31:09,462 basehttp 31280 27772 "GET /favicon.ico HTTP/1.1" 404 2751
+WARNING 2025-09-25 07:31:09,724 log 31280 30960 Not Found: /manifest.json
+WARNING 2025-09-25 07:31:09,725 basehttp 31280 30960 "GET /manifest.json HTTP/1.1" 404 2757
+WARNING 2025-09-25 07:31:17,713 log 31280 31064 Not Found: /
+WARNING 2025-09-25 07:31:17,714 basehttp 31280 31064 "GET / HTTP/1.1" 404 2700
+INFO 2025-09-25 07:31:25,729 basehttp 31280 5388 "GET /admin HTTP/1.1" 301 0
+INFO 2025-09-25 07:31:25,756 basehttp 31280 28168 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-25 07:31:25,877 basehttp 31280 28168 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4214
+INFO 2025-09-25 07:31:26,242 basehttp 31280 28168 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2025-09-25 07:31:26,255 basehttp 31280 2324 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-09-25 07:31:26,257 basehttp 31280 28168 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-09-25 07:31:26,262 basehttp 31280 2324 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-09-25 07:31:26,267 basehttp 31280 28168 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2025-09-25 07:31:26,273 basehttp 31280 37244 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-25 07:31:26,276 basehttp 31280 2324 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-09-25 07:31:34,135 basehttp 31280 15752 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4402
+WARNING 2025-09-25 07:32:03,217 log 31280 7596 Not Found: /manifest.json
+WARNING 2025-09-25 07:32:03,217 basehttp 31280 7596 "GET /manifest.json HTTP/1.1" 404 2757
+INFO 2025-09-25 07:33:00,346 basehttp 31280 33256 "OPTIONS /api/v1/auth/login HTTP/1.1" 200 0
+WARNING 2025-09-25 07:33:00,358 log 31280 33256 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:33:00,360 basehttp 31280 33256 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+INFO 2025-09-25 07:33:21,967 autoreload 38464 21120 Watching for file changes with StatReloader
+WARNING 2025-09-25 07:33:26,244 log 31280 2552 Not Found: /manifest.json
+WARNING 2025-09-25 07:33:26,245 basehttp 31280 2552 "GET /manifest.json HTTP/1.1" 404 2757
+WARNING 2025-09-25 07:33:32,368 log 31280 25460 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:33:32,368 basehttp 31280 25460 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:33:42,869 log 31280 19764 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:33:42,870 basehttp 31280 19764 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+INFO 2025-09-25 07:33:58,323 basehttp 31280 33656 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-25 07:33:58,333 basehttp 31280 33656 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4214
+INFO 2025-09-25 07:34:08,403 basehttp 31280 33656 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-09-25 07:34:08,696 basehttp 31280 33656 "GET /admin/ HTTP/1.1" 200 7871
+INFO 2025-09-25 07:34:08,779 basehttp 31280 33656 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-09-25 07:34:08,834 basehttp 31280 33656 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-25 07:34:08,853 basehttp 31280 33656 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-25 07:34:15,101 basehttp 31280 33656 "GET /admin/users/user/add/ HTTP/1.1" 200 17181
+INFO 2025-09-25 07:34:15,665 basehttp 31280 33656 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2025-09-25 07:34:15,745 basehttp 31280 22304 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-09-25 07:34:15,780 basehttp 31280 22304 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-25 07:34:15,826 basehttp 31280 22304 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-09-25 07:34:15,886 basehttp 31280 22304 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2025-09-25 07:34:15,968 basehttp 31280 37812 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-25 07:34:15,974 basehttp 31280 4048 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-25 07:34:15,997 basehttp 31280 22304 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-09-25 07:34:15,998 basehttp 31280 2640 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-09-25 07:34:16,001 basehttp 31280 33656 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-09-25 07:34:16,039 basehttp 31280 37812 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-09-25 07:34:16,079 basehttp 31280 4048 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-25 07:34:16,107 basehttp 31280 30008 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-09-25 07:34:16,475 basehttp 31280 30008 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-25 07:34:16,518 basehttp 31280 4048 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-25 07:34:43,740 basehttp 31280 5456 "POST /admin/users/user/add/ HTTP/1.1" 302 0
+INFO 2025-09-25 07:34:43,869 basehttp 31280 5456 "GET /admin/users/user/2/change/ HTTP/1.1" 200 26333
+INFO 2025-09-25 07:34:43,959 basehttp 31280 5456 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-09-25 07:34:43,978 basehttp 31280 20172 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-09-25 07:34:43,979 basehttp 31280 7448 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-09-25 07:34:43,980 basehttp 31280 5456 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-09-25 07:34:44,008 basehttp 31280 20172 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-09-25 07:34:44,058 basehttp 31280 20172 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-09-25 07:34:44,222 basehttp 31280 5456 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-09-25 07:34:44,225 basehttp 31280 7448 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-09-25 07:34:44,226 basehttp 31280 20172 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-09-25 07:34:44,227 basehttp 31280 5456 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-09-25 07:34:44,235 basehttp 31280 20172 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-09-25 07:34:44,236 basehttp 31280 7448 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+WARNING 2025-09-25 07:34:57,408 log 31280 16284 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:34:57,409 basehttp 31280 16284 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:35:30,190 log 31280 16284 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:35:30,191 basehttp 31280 16284 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+INFO 2025-09-25 07:35:40,187 basehttp 31280 41372 "GET /admin/users/user/ HTTP/1.1" 200 14178
+INFO 2025-09-25 07:35:40,287 basehttp 31280 13360 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-09-25 07:35:40,300 basehttp 31280 41372 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2025-09-25 07:35:40,344 basehttp 31280 41372 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-09-25 07:35:40,399 basehttp 31280 41372 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-09-25 07:36:12,630 basehttp 31280 34888 "GET /admin/users/ HTTP/1.1" 200 5101
+INFO 2025-09-25 07:36:13,614 basehttp 31280 34888 "GET /admin/ HTTP/1.1" 200 8206
+WARNING 2025-09-25 07:38:19,635 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:19,636 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:20,782 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:20,796 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:22,235 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:22,236 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:22,553 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:22,554 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:22,748 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:22,749 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:22,960 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:22,961 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:23,126 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:23,127 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:23,287 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:23,287 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:23,459 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:23,460 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:23,635 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:23,635 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:23,801 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:23,802 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:23,971 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:23,971 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:24,138 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:24,138 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:24,308 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:24,309 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:24,480 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:24,481 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:24,651 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:24,651 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:24,823 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:24,824 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:24,984 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:24,984 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:25,140 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:25,142 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:25,319 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:25,319 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:25,750 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:25,750 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:25,958 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:25,959 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:27,819 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:27,820 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:28,006 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:28,008 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:28,368 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:28,369 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+WARNING 2025-09-25 07:38:28,553 log 31280 20196 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:38:28,553 basehttp 31280 20196 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+INFO 2025-09-25 07:41:23,478 autoreload 23136 12468 Watching for file changes with StatReloader
+INFO 2025-09-25 07:41:37,148 basehttp 23136 7428 "GET /admin/ HTTP/1.1" 200 8206
+WARNING 2025-09-25 07:44:56,652 log 23136 24832 Not Found: /manifest.json
+WARNING 2025-09-25 07:44:56,653 basehttp 23136 24832 "GET /manifest.json HTTP/1.1" 404 2757
+WARNING 2025-09-25 07:44:56,691 log 23136 32952 Not Found: /manifest.json
+WARNING 2025-09-25 07:44:56,691 basehttp 23136 32952 "GET /manifest.json HTTP/1.1" 404 2757
+WARNING 2025-09-25 07:45:09,276 log 23136 28188 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 07:45:09,277 basehttp 23136 28188 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+INFO 2025-09-25 08:03:37,894 autoreload 14248 9728 Watching for file changes with StatReloader
+WARNING 2025-09-25 08:04:51,645 log 14248 40756 Not Found: /
+WARNING 2025-09-25 08:04:51,646 basehttp 14248 40756 "GET / HTTP/1.1" 404 2700
+INFO 2025-09-25 08:04:57,028 basehttp 14248 40756 "GET /admin/ HTTP/1.1" 200 8206
+WARNING 2025-09-25 08:05:16,447 log 14248 39888 Not Found: /manifest.json
+WARNING 2025-09-25 08:05:16,448 basehttp 14248 39888 "GET /manifest.json HTTP/1.1" 404 2757
+WARNING 2025-09-25 08:05:27,853 log 14248 36220 Not Found: /api/v1/auth/login
+WARNING 2025-09-25 08:05:27,853 basehttp 14248 36220 "POST /api/v1/auth/login HTTP/1.1" 404 3461
+INFO 2025-09-25 08:05:50,833 basehttp 14248 40756 "GET /admin/ HTTP/1.1" 200 8206
+INFO 2025-09-25 08:05:54,002 basehttp 14248 40756 "GET /admin/users/user/ HTTP/1.1" 200 14178
+INFO 2025-09-25 08:05:54,074 basehttp 14248 40756 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-09-25 08:15:24,999 basehttp 14248 24248 "OPTIONS /api/auth/login HTTP/1.1" 200 0
+ERROR 2025-09-25 08:15:25,103 log 14248 24248 Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "C:\Users\brunom3175_00\Downloads\Sinalizado_Digital\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\brunom3175_00\Downloads\Sinalizado_Digital\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\brunom3175_00\Downloads\Sinalizado_Digital\backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\brunom3175_00\Downloads\Sinalizado_Digital\backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2025-09-25 08:15:25,122 basehttp 14248 24248 "POST /api/auth/login HTTP/1.1" 500 78479
+INFO 2025-09-25 08:15:41,968 basehttp 14248 31036 "GET /admin/users/user/2/change/ HTTP/1.1" 200 26072
+INFO 2025-09-25 08:15:42,052 basehttp 14248 31036 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-09-25 08:16:37,704 basehttp 14248 31036 "POST /admin/users/user/2/change/ HTTP/1.1" 302 0
+INFO 2025-09-25 08:16:37,732 basehttp 14248 31036 "GET /admin/users/user/ HTTP/1.1" 200 14441
+INFO 2025-09-25 08:16:37,799 basehttp 14248 31036 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+WARNING 2025-09-25 08:17:35,268 log 14248 3816 Bad Request: /api/auth/login/
+WARNING 2025-09-25 08:17:35,269 basehttp 14248 3816 "POST /api/auth/login/ HTTP/1.1" 400 76
+INFO 2025-09-25 08:17:35,606 basehttp 14248 3816 - Broken pipe from ('127.0.0.1', 49675)
+INFO 2025-09-25 08:22:09,530 basehttp 14248 41380 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+INFO 2025-09-25 08:22:10,901 basehttp 14248 41380 "POST /api/auth/login/ HTTP/1.1" 200 767
+INFO 2025-09-25 08:22:10,906 basehttp 14248 41380 "OPTIONS /api/auth/profile/ HTTP/1.1" 200 0
+WARNING 2025-09-25 08:22:10,909 log 14248 41380 Unauthorized: /api/auth/profile/
+WARNING 2025-09-25 08:22:10,909 basehttp 14248 41380 "GET /api/auth/profile/ HTTP/1.1" 401 209
+INFO 2025-09-25 08:23:18,259 basehttp 14248 24728 "OPTIONS /api/auth/profile HTTP/1.1" 200 0
+INFO 2025-09-25 08:23:18,275 basehttp 14248 24728 "GET /api/auth/profile HTTP/1.1" 301 0
+WARNING 2025-09-25 08:23:18,519 log 14248 38724 Unauthorized: /api/auth/profile/
+WARNING 2025-09-25 08:23:18,520 basehttp 14248 38724 "GET /api/auth/profile/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:19,536 log 14248 29072 Not Found: /manifest.json
+WARNING 2025-09-25 08:26:19,547 basehttp 14248 29072 "GET /manifest.json HTTP/1.1" 404 2757
+INFO 2025-09-25 08:26:27,540 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 200 767
+INFO 2025-09-25 08:26:27,546 basehttp 14248 24312 "OPTIONS /api/auth/me/ HTTP/1.1" 200 0
+WARNING 2025-09-25 08:26:27,560 log 14248 24312 Not Found: /api/auth/me/
+WARNING 2025-09-25 08:26:27,561 basehttp 14248 24312 "GET /api/auth/me/ HTTP/1.1" 404 4685
+WARNING 2025-09-25 08:26:35,980 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:35,981 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:38,043 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:38,043 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:38,731 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:38,732 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:38,933 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:38,933 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:39,116 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:39,117 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:39,279 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:39,279 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:39,460 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:39,461 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:39,636 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:39,636 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:39,804 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:39,804 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:39,982 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:39,983 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:40,133 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:40,133 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:40,302 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:40,302 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:40,477 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:40,478 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:40,638 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:40,639 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:40,774 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:40,775 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:43,932 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:43,932 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:44,101 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:44,102 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:44,299 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:44,300 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:48,824 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:48,825 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:49,083 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:49,084 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:49,337 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:49,338 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:49,548 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:49,549 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:49,755 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:49,756 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:49,945 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:49,946 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:50,122 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:50,123 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+WARNING 2025-09-25 08:26:50,283 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:26:50,284 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209
+INFO 2025-09-25 08:31:34,390 basehttp 14248 6132 "GET /admin/users/user/ HTTP/1.1" 200 14215
+INFO 2025-09-25 08:31:34,465 basehttp 14248 6132 "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+WARNING 2025-09-25 08:31:44,346 log 14248 24312 Unauthorized: /api/auth/login/
+WARNING 2025-09-25 08:31:44,347 basehttp 14248 24312 "POST /api/auth/login/ HTTP/1.1" 401 209

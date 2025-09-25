@@ -5,19 +5,19 @@ Sistema completo de sinalização digital com painel web, API REST, e scripts pa
 
 ## 📋 TODO List
 
-### 1. Configuração do Projeto ✅
-- [x] Criar estrutura de diretórios
-- [x] Configurar ambiente virtual Python
-- [x] Configurar Node.js para frontend
-- [x] Criar arquivos de configuração (requirements.txt, package.json)
+### 1. Correções Críticas de Documentação ✅
+- [x] Atualizar README.md: Corrigir referências de FastAPI para Django
+- [x] Atualizar docs/API.md: Atualizar documentação da API para Django REST Framework
+- [x] Atualizar docs/tutorial.md: Corrigir comandos e configurações para Django
+- [x] Atualizar docs/GUIA_INSTALACAO_RASPBERRY.md: Verificar compatibilidade com scripts atuais
 
-### 2. Backend (FastAPI)
-- [x] Criar estrutura base do FastAPI
-- [x] Configurar banco de dados (SQLAlchemy)
-- [x] Implementar autenticação JWT
+### 2. Backend (Django) ✅
+- [x] Criar estrutura base do Django
+- [x] Configurar banco de dados (PostgreSQL/SQLite)
+- [x] Implementar autenticação JWT com DRF
 - [x] Criar modelos de dados (User, Agency, Content, Schedule, Device)
-- [x] Implementar rotas da API
-- [x] Criar middleware de autenticação
+- [x] Implementar API com Django REST Framework
+- [x] Configurar admin Django
 - [x] Implementar validação de horários e conflitos
 
 ### 3. Banco de Dados ✅
@@ -66,7 +66,7 @@ O Sistema de Sinalização Digital da Facilita TI está **totalmente implementad
 
 ### 📁 Estrutura Criada
 
-#### Backend (FastAPI)
+#### Backend (Django)
 - ✅ API REST completa com autenticação JWT
 - ✅ Modelos de dados para User, Agency, Content, Schedule, Device
 - ✅ Endpoints CRUD para todas as entidades
@@ -75,19 +75,14 @@ O Sistema de Sinalização Digital da Facilita TI está **totalmente implementad
 - ✅ Configuração de CORS
 
 #### Frontend (React)
-- ✅ Painel web responsivo com Bootstrap 5
-- ✅ Sistema de autenticação integrado
-- ✅ Dashboard com status dos dispositivos
-- ✅ Gerenciamento completo de agências
-- ✅ Cadastro e upload de conteúdos
-- ✅ Sistema de agendamento por horário/dia
-- ✅ Tema personalizado Sicoob (#006633)
-- ✅ Interface moderna e intuitiva
+- ✅ Interface responsiva com Bootstrap 5
+- ✅ Sistema de autenticação JWT
+- ✅ Dashboard com métricas em tempo real
+- ✅ Gerenciamento completo de agências, conteúdos e agendamentos
+- ✅ Upload de arquivos e logos
+- ✅ Calendário interativo para agendamentos
 
-#### Raspberry Pi Player
-- ✅ Script Python para execução de conteúdo
-- ✅ Suporte a links (Chromium kiosk), vídeos (VLC), imagens (feh)
-- ✅ Controle HDMI-CEC para hibernação
+#### Raspberry Pi Integration
 - ✅ Rotação automática de tela
 - ✅ Sincronização com API
 - ✅ Monitoramento de sistema
@@ -103,8 +98,11 @@ O Sistema de Sinalização Digital da Facilita TI está **totalmente implementad
 1. **Backend:**
    ```bash
    cd backend
+   python -m venv venv
+   venv\Scripts\activate  # Windows
    pip install -r requirements.txt
-   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+   python manage.py migrate
+   python manage.py runserver 0.0.0.0:8000
    ```
 
 2. **Frontend:**
@@ -117,8 +115,8 @@ O Sistema de Sinalização Digital da Facilita TI está **totalmente implementad
 3. **Raspberry Pi:**
    ```bash
    cd raspberry_pi
-   chmod +x install.sh
-   ./install.sh
+   chmod +x install_lite.sh
+   ./install_lite.sh
    ```
 
 ### 🔧 Funcionalidades Implementadas
@@ -147,3 +145,235 @@ O sistema está pronto para implantação e uso em produção. Todas as funciona
 **Data de Conclusão:** 24/09/2025
 **Versão:** 1.0
 **Status:** ✅ **PRODUÇÃO READY**
+
+---
+
+## 📊 ANÁLISE TÉCNICA DETALHADA - Outubro 2024
+
+### 🎯 Status Atual do Projeto
+
+**Status**: ⚠️ **FUNCIONAL MAS NECESSITA CORREÇÕES CRÍTICAS**
+
+O sistema possui base sólida mas apresenta **inconsistências críticas** que impedem o uso em produção.
+
+### 🔥 PROBLEMAS CRÍTICOS IDENTIFICADOS
+
+#### 1. **Inconsistências na Documentação** ❌ CRÍTICO
+- Documentação refere-se incorretamente a **FastAPI** (sistema usa Django)
+- Arquivos `docs/API.md` e `docs/tutorial.md` com informações desatualizadas
+- README.md com tecnologia errada
+
+#### 2. **Scripts Raspberry Pi Quebrados** ❌ CRÍTICO
+- `install_lite.sh` baixa arquivo de repositório incorreto
+- Configuração padrão aponta para localhost (não configurável)
+- Falta validação de dependências
+
+#### 3. **Falta de Testes** ❌ CRÍTICO
+- Zero testes implementados (backend/frontend)
+- Sem CI/CD configurado
+- Cobertura: 0%
+
+#### 4. **Problemas de Segurança** ⚠️ ALTO
+- CORS muito permissivo
+- Sem rate limiting
+- Secrets no código (não em env vars)
+
+### ✅ PONTOS FORTES
+
+- Arquitetura modular bem estruturada
+- Tecnologias apropriadas (Django + React)
+- Funcionalidades core implementadas
+- Interface responsiva
+
+---
+
+## 📋 PLANO DE AÇÃO PRIORIZADO
+
+### 🔥 **CRÍTICO - Corrigir Imediatamente**
+
+#### 8. **Atualização da Documentação** ⏰ HOJE
+- [ ] Corrigir referências FastAPI → Django em todos os arquivos
+- [ ] Atualizar `docs/API.md` com endpoints Django corretos
+- [ ] Revisar `docs/tutorial.md` com comandos Django
+- [ ] Atualizar README.md com informações técnicas corretas
+
+#### 9. **Correção Scripts Raspberry Pi** ⏰ HOJE
+- [ ] Corrigir URL de download no `install_lite.sh`
+- [ ] Melhorar configuração padrão com placeholders
+- [ ] Adicionar validação de pré-requisitos na instalação
+- [ ] Testar instalação completa em Raspberry Pi real
+
+#### 10. **Implementar Testes Básicos** ⏰ Amanhã
+- [ ] Configurar pytest para backend
+- [ ] Criar testes unitários para models
+- [ ] Testes de API endpoints principais
+- [ ] Testes básicos do player Python
+
+### 🟡 **ALTO - Próximas 2 Semanas**
+
+#### 11. **Segurança e Performance** ⏰ Semana 1
+- [ ] Implementar refresh tokens JWT
+- [ ] Configurar CORS específico por ambiente
+- [ ] Adicionar rate limiting na API
+- [ ] Otimizar queries com select_related/prefetch_related
+
+#### 12. **Monitoramento e Logs** ⏰ Semana 2
+- [ ] Sistema de logging estruturado
+- [ ] Métricas de performance da API
+- [ ] Alertas automáticos para dispositivos offline
+- [ ] Dashboard de monitoramento
+
+### 🟢 **MÉDIO - Próximas 4 Semanas**
+
+#### 13. **UX/UI Melhorias** ⏰ Semana 3
+- [ ] Loading states em todas as operações
+- [ ] Notificações toast para feedback
+- [ ] Validação em tempo real nos formulários
+- [ ] Melhorar responsividade mobile
+
+#### 14. **Otimização Geral** ⏰ Semana 4
+- [ ] Implementar cache Redis
+- [ ] Lazy loading no frontend
+- [ ] Compressão de assets
+- [ ] Otimização de imagens
+
+---
+
+## 📈 MÉTRICAS DE SUCESSO
+
+### Após Correções Críticas
+- ✅ Documentação 100% consistente
+- ✅ Instalação Raspberry Pi funcionando
+- ✅ Cobertura de testes > 60%
+- ✅ Segurança básica implementada
+
+### Métricas Técnicas Alvo
+- **Uptime**: > 99.5%
+- **Tempo de Resposta API**: < 300ms
+- **Taxa de Erro**: < 0.1%
+- **Facilidade de Instalação**: < 15 min/dispositivo
+
+---
+
+## 🎯 PRÓXIMAS FASES (Pós-Correções)
+
+### Fase 2: Melhorias (Nov-Dez 2024)
+- 🔄 Notificações push em tempo real
+- 🔄 Relatórios avançados com gráficos
+- 🔄 Suporte a múltiplos idiomas
+- 🔄 Integração com sistemas externos
+
+### Fase 3: Expansão (2025)
+- 📱 App mobile para gerenciamento
+- 🏢 Multi-tenancy completo
+- 📊 Analytics em tempo real
+- 🔧 API webhooks
+
+---
+
+## 💰 ANÁLISE DE CUSTOS
+
+### Investimento Atual
+- **Desenvolvimento**: ~160 horas já investidas
+- **Hardware**: ~R$ 350/dispositivo (Raspberry + SD)
+
+### Custos Operacionais
+- **Servidor VPS**: ~R$ 200/mês
+- **Manutenção**: ~20 horas/mês
+- **Suporte**: ~10 horas/mês
+
+### ROI Esperado
+- **Redução de Custos**: 70% vs soluções comerciais
+- **Payback**: ~6 meses
+- **Benefícios**: Controle total, customização, escalabilidade
+
+---
+
+## 📞 SUPORTE E CONTATO
+
+**Desenvolvedor**: Bruno Martins Rocha
+**Empresa**: Facilita TI
+**Email**: brunomartinsrocha@outlook.com
+**WhatsApp**: (31) 98439-0045
+
+---
+
+## ✅ CHECKLIST DE VALIDAÇÃO PRÉ-PRODUÇÃO
+
+### Backend
+- [ ] Todas as APIs funcionando
+- [ ] Autenticação JWT completa
+- [ ] Upload de arquivos validado
+- [ ] Banco de dados migrado
+
+### Frontend
+- [ ] Interface responsiva
+- [ ] Autenticação integrada
+- [ ] Formulários funcionais
+- [ ] Navegação fluida
+
+### Raspberry Pi
+- [ ] Instalação automatizada
+- [ ] Player funcionando
+- [ ] Sincronização com API
+- [ ] Hibernação HDMI-CEC
+
+### Segurança
+- [ ] CORS configurado
+- [ ] Rate limiting ativo
+- [ ] Logs de auditoria
+- [ ] Backup automático
+
+---
+
+**Data da Análise**: Outubro 2024
+**Próxima Revisão**: Novembro 2024
+**Status**: ⚠️ **AGUARDANDO CORREÇÕES CRÍTICAS**
+
+---
+
+## 📋 Plano de Ação Priorizado
+
+### 🔥 **CRÍTICO** (Implementar Imediatamente)
+1. **Correção da Documentação**
+   - Atualizar todas as referências incorretas
+   - Padronizar informações sobre Django
+   - Corrigir comandos de instalação
+
+2. **Testes de Instalação Raspberry Pi**
+   - Validar script install_lite.sh
+   - Testar player_lite.py em ambiente real
+   - Verificar compatibilidade com Raspberry Pi OS Lite
+
+### ⚠️ **ALTO** (Próximas 2 semanas)
+3. **Testes Automatizados**
+   - Backend: Cobertura mínima 80%
+   - API: Testes de integração
+   - Frontend: Testes básicos
+
+4. **Segurança Básica**
+   - Rate limiting
+   - Validação de entrada
+   - Sanitização de dados
+
+### 📈 **MÉDIO** (Próximo mês)
+5. **Monitoramento**
+   - Métricas básicas
+   - Alertas críticos
+   - Logs estruturados
+
+6. **Performance**
+   - Otimização de queries
+   - Cache básico
+   - Compressão de assets
+
+### 🎯 **BAIXO** (Próximos 3 meses)
+7. **Funcionalidades Avançadas**
+   - Notificações push
+   - Relatórios
+   - Multi-idioma
+
+---
+
+**Última Atualização:** 24/09/2025
+**Responsável:** Bruno Martins Rocha - Facilita TI

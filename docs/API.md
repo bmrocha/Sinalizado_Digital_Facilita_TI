@@ -1,12 +1,10 @@
-# API REST - Sistema de Sinalização Digital
+fuo # API REST - Sistema de Sinalização Digital
 
 ## Visão Geral
-
-Esta documentação descreve a API REST do Sistema de Sinalização Digital do Sicoob Credisete. A API é construída com FastAPI e fornece endpoints para gerenciamento completo do sistema.
-
-Base URL: `http://localhost:8000/api/v1`
-
+no 
+Esta documentação descreve a API REST do Sistema de Sinalização Digital da Facilita TI. A API é construída com Django REST Framework e fornece endpoints para gerenciamento completo do sistema.
 ## Autenticação
+Base URL: `http://localhost:8000/api`
 
 A API utiliza autenticação JWT (JSON Web Tokens). Para acessar endpoints protegidos, inclua o token no header:
 
@@ -337,7 +335,7 @@ A API utiliza versionamento no path:
 ### Login e Obtenção de Token
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/auth/login" \
+curl -X POST "http://localhost:8000/api/auth/login" \
   -H "Content-Type: application/json" \
   -d '{
     "username": "admin",
@@ -348,7 +346,7 @@ curl -X POST "http://localhost:8000/api/v1/auth/login" \
 ### Criar Agência
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/agencies" \
+curl -X POST "http://localhost:8000/api/agencies" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -d '{
@@ -364,11 +362,10 @@ curl -X POST "http://localhost:8000/api/v1/agencies" \
 ### Upload de Logo
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/agencies/1/logo" \
+curl -X POST "http://localhost:8000/api/agencies/1/logo" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -F "file=@logo.png"
 ```
-
 ## WebSocket (Futuro)
 
 Para funcionalidades em tempo real, considere implementar WebSocket para:
