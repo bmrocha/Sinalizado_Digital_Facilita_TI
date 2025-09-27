@@ -1,6 +1,6 @@
  usu# Sistema de Sinalização Digital - Facilita TI
 
-Um sistema completo de sinalização digital desenvolvido por Bruno Martins Rocha da Facilita TI, utilizando Raspberry Pi 4 como dispositivo de exibição e um painel web moderno para gerenciamento remoto.
+Um sistema completo de sinalização digital desenvolvido por Bruno Martins Rocha da Facilita TI, utilizando Raspberry Pi 4 como dispositivo de exibição e um painel web moderno para gerenciamento remoto. Esse projeto precisa de uma aplicação para validar instalação da plataforma e para cada raspberry ativada.
 
 ## 📋 Visão Geral
 
@@ -315,7 +315,7 @@ Este projeto é propriedade da Facilta TI.
 
 Para suporte técnico, entre em contato com Bruno Martins Rocha:
 
-- **Email:** brunomartinsrocha@outlook.com
+- **Email:** bmrocha7l@gmail.com
 - **Telefone:** 31-98439-0045
 - **LinkedIn:** https://www.linkedin.com/in/brunomartinsrocha/
 
